@@ -1,0 +1,17 @@
+.back {
+    margin: 0;
+    background: linear-gradient(180deg, #0a1f44 0%, #0b0c2a 100%);
+    overflow: hidden;
+    height: 100dvh;
+    padding: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.point {
+    height: 2px;
+    width: 2px;
+    background: white;
+    border-radius: 999px;
+}
